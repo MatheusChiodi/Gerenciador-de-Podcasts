@@ -1,0 +1,20 @@
+{
+  "name": "gerenciador-de-podcasts",
+  "version": "1.0.0",
+  "description": "Bem-vindo ao projeto **Gerenciador de Podcasts**! Neste projeto, você encontrará uma plataforma desenvolvida para facilitar a organização e o gerenciamento de podcasts. Com uma interface intuitiva e um backend robusto, este sistema foi criado para atender tanto a produtores independentes quanto a grandes distribuidores de conteúdo audiovisual.",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "tsx src/server.ts",
+    "start:watch": "tsx watch src/server.ts",
+    "dist": "tsup src",
+    "start:dist": "npm run dist && node/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "tsup": "^8.3.5",
+    "tsx": "^4.19.2",
+    "typescript": "^5.6.3"
+  }
+}
