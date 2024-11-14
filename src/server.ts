@@ -1,5 +1,5 @@
 import * as http from 'http';
-import { getListEpisodes } from './controllers/podscasts-controler';
+import { getListEpisodes } from './controllers/podcasts-controler';
 
 const server = http.createServer(
   async (req: http.IncomingMessage, res: http.ServerResponse) => {
