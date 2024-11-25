@@ -9,8 +9,6 @@ const server = http.createServer(
     // server QueryString
     const [baseUrl, queryString] = req.url?.split('?') ?? ['', ''];
 
-    console.log(baseUrl, queryString);
-
     // listar podcast
     if (req.method === 'GET' && baseUrl === '/api/list') {
       await getListEpisodes(req, res);
