@@ -6,13 +6,18 @@ import {
 
 const server = http.createServer(
   async (req: http.IncomingMessage, res: http.ServerResponse) => {
+    // server QueryString
+    const [baseUrl, queryString] = req.url?.split('?') ?? ['', ''];
+
+    console.log(baseUrl, queryString);
+
     // listar podcast
-    if (req.method === 'GET' && req.url === '/api/list') {
+    if (req.method === 'GET' && baseUrl === '/api/list') {
       await getListEpisodes(req, res);
     }
 
     // filtrar podcast
-    if (req.method === 'GET' && req.url === '/api/filter') {
+    if (req.method === 'GET' && baseUrl === '/api/filter') {
       await getFilterEpisodes(req, res);
     }
   }
