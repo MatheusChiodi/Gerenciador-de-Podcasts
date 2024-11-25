@@ -12,7 +12,9 @@ export const repositoryPodcast = async (
   podcastName?: string
 ): Promise<PodcastModel[]> => {
   try {
-    const rawData = await fs.promises.readFile(pathData, 'utf-8');
+    const language = 'utf-8';
+
+    const rawData = await fs.promises.readFile(pathData, language);
     let jsonFile = JSON.parse(rawData);
 
     if (podcastName) {
