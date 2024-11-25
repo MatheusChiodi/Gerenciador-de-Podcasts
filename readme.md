@@ -11,11 +11,10 @@ Bem-vindo ao projeto **Gerenciador de Podcasts**! Neste projeto, você encontrar
 
 ## ✨ Funcionalidades
 
-- **Upload de Episódios**: Permite aos usuários subir novos episódios de podcasts, facilitando a gestão de conteúdo.
-- **Criação de Feeds**: Gera feeds personalizados para facilitar a distribuição e organização dos episódios.
-- **Gestão de Subscrições**: Oferece suporte para a administração de assinantes e subscrições.
-- **Análise de Audiência**: Ferramentas analíticas para acompanhar o engajamento e crescimento da audiência.
-- **Escalabilidade e Segurança**: Projetado para suportar um grande número de usuários e garantir a segurança dos dados.
+- **Listagem de Episódios**: Consulta dos episódios cadastrados.
+- **Edição de Episódios**: Atualização dos dados dos episódios já cadastrados.
+- **Exclusão de Episódios**: Remoção de episódios do catálogo.
+- **Filtro**: Filtro de Episódios por meio do nome
 
 ## 📈 Objetivos do Projeto
 
