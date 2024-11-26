@@ -1,72 +1,72 @@
 
-# Gerenciador de Podcasts
+# Podcast Manager
 
-Bem-vindo ao projeto **Gerenciador de Podcasts**! Neste projeto, você encontrará uma plataforma desenvolvida para facilitar a organização e o gerenciamento de podcasts. Com uma interface intuitiva e um backend robusto, este sistema foi criado para atender tanto a produtores independentes quanto a grandes distribuidores de conteúdo audiovisual.
+Welcome to the **Podcast Manager** project! This platform was designed to simplify the organization and management of podcasts. With an intuitive interface and a robust backend, this system caters to both independent producers and major distributors of audiovisual content.
 
-## 🛠 Tecnologias Utilizadas
+## 🛠 Technologies Used
 
-- **Node.js**: Plataforma de backend assíncrona e orientada a eventos, ideal para criar APIs escaláveis.
-- **TypeScript**: Extensão do JavaScript que adiciona tipos ao código, aumentando a segurança e clareza.
-- **HTTP Module**: Utilizado para comunicação de rede, garantindo eficiência e flexibilidade nas interações com o cliente.
+- **Node.js**: Asynchronous, event-driven backend platform, ideal for building scalable APIs.
+- **TypeScript**: A superset of JavaScript that adds type safety, improving code reliability and clarity.
+- **HTTP Module**: Used for network communication, ensuring efficient and flexible client interactions.
 
-## ✨ Funcionalidades
+## ✨ Features
 
-- **Listagem de Episódios**: Consulta dos episódios cadastrados.
-- **Edição de Episódios**: Atualização dos dados dos episódios já cadastrados.
-- **Exclusão de Episódios**: Remoção de episódios do catálogo.
-- **Filtro**: Filtro de Episódios por meio do nome
+- **Episode Listing**: View all registered episodes.
+- **Episode Editing**: Update information for existing episodes.
+- **Episode Deletion**: Remove episodes from the catalog.
+- **Filtering**: Filter episodes by name.
 
-## 📈 Objetivos do Projeto
+## 📈 Project Objectives
 
-O **Gerenciador de Podcasts** foi desenvolvido para simplificar a experiência de produção e distribuição de podcasts, abrangendo desde pequenas produções até grandes plataformas de mídia. O foco é proporcionar:
+The **Podcast Manager** was developed to streamline the podcast production and distribution process, serving both small-scale productions and large media platforms. The focus is on delivering:
 
-1. **Facilidade de uso**: Interface intuitiva, com funcionalidades acessíveis para iniciantes e avançadas para profissionais.
-2. **Compatibilidade**: Suporte para diferentes dispositivos e plataformas, garantindo que o conteúdo seja acessível em qualquer lugar.
-3. **Eficiência de Rede**: Utilização de módulos HTTP para uma comunicação rápida e eficiente com os clientes.
-4. **Escalabilidade**: Arquitetura preparada para crescimento, garantindo que o sistema suporte o aumento de demanda.
+1. **Ease of Use**: An intuitive interface with accessible features for beginners and advanced tools for professionals.
+2. **Compatibility**: Support for various devices and platforms, ensuring content accessibility anywhere.
+3. **Network Efficiency**: Leveraging HTTP modules for fast and efficient client communication.
+4. **Scalability**: Architecture designed for growth, capable of handling increasing demand.
 
-## 🚀 Como Iniciar o Projeto
+## 🚀 How to Get Started
 
-1. Clone o repositório:
+1. Clone the repository:
 
    ```bash
-   git clone https://github.com/seu-usuario/gerenciador-de-podcasts.git
+   git clone https://github.com/your-username/podcast-manager.git
    ```
 
-2. Instale as dependências:
+2. Install dependencies:
 
    ```bash
-   cd gerenciador-de-podcasts
+   cd podcast-manager
    npm install
    ```
 
-3. Execute a aplicação em modo de desenvolvimento:
+3. Run the application in development mode:
 
    ```bash
    npm run dev
    ```
 
-4. Acesse a aplicação no seu navegador, geralmente em `http://localhost:3000`.
+4. Access the application in your browser, typically at `http://localhost:3000`.
 
-## 📚 Estrutura de Pastas
+## 📚 Folder Structure
 
-- **src**: Contém o código fonte do projeto.
-  - **controllers**: Define a lógica de controle da aplicação, como manipulação de episódios e assinaturas.
-  - **models**: Modelos de dados, incluindo esquemas para podcasts, usuários, etc.
-  - **routes**: Configuração das rotas para endpoints da API.
-  - **utils**: Funções auxiliares e serviços externos.
-  
-## 📖 Documentação da API
+- **src**: Contains the project source code.
+  - **controllers**: Defines the application's control logic, such as handling episodes and subscriptions.
+  - **models**: Data models, including schemas for podcasts, users, etc.
+  - **routes**: Configuration for API endpoints.
+  - **utils**: Helper functions and external services.
 
-Para acessar a documentação completa da API, consulte o arquivo `api-docs.md` (ou use uma ferramenta como Swagger, caso esteja configurada).
+## 📖 API Documentation
 
-## 📌 Considerações Finais
+For full API documentation, refer to the `api-docs.md` file (or use a tool like Swagger if configured).
 
-Este gerenciador de podcasts é um projeto em constante evolução. A sua contribuição é bem-vinda! Caso encontre algum problema ou tenha sugestões, sinta-se à vontade para abrir uma issue ou enviar um pull request.
+## 📌 Final Considerations
 
-**Desfrute da experiência de gerenciar podcasts de forma prática e eficiente!**
+This podcast manager is an evolving project. Your contribution is welcome! If you encounter any issues or have suggestions, feel free to open an issue or submit a pull request.
+
+**Enjoy managing your podcasts in a practical and efficient way!**
 
 ---
 
-**Autor:** Matheus Chiodi  
-**Licença:** MIT  
+**Author:** Matheus Chiodi  
+**License:** MIT  
